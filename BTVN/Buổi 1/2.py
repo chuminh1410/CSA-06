@@ -31,9 +31,6 @@ def main():
     elif shape == "circle":
         radius = float(input("Radius: "))
         shape_obj = Circle(radius)
-    else:
-        print("=> Invalid!")
-        return
     
     perimeter = shape_obj.perimeter()
     area = shape_obj.area()
